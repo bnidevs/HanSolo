@@ -18,7 +18,7 @@ Postcondition: *arr* is sorted
 
 **Merge**
 
-Precondition: takes two sorted arrays of integers*arr1*, *arr2*
+Precondition: takes two sorted arrays of integers *arr1*, *arr2*
 
 Function: if either array is empty, proceed by putting all elements in the other array into the returned array  
 			else, compares 1st element of both arrays and places the smaller in the returned array first

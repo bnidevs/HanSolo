@@ -1,21 +1,7 @@
-//Clyde "Thluffy" Sinclair
-//APCS2 pd0
-//HW18 -- QuickSort
-//2018-03-13t
-  
 /*****************************************************
- * class QuickSort
- * Implements quicksort algo to sort an array of ints in place
- *
- * 1. Summary of QuickSort algorithm:
- * QSort(arr): 
- *
- * 2a. Worst pivot choice and associated runtime: 
- *
- * 2b. Best pivot choice and associated runtime:
- *
- * 3. Approach to handling duplicate values in array:
- *
+Use nanoTime() to record time before starting sort
+Store value in variable
+After sorting, assign the difference between the current time and the variable value to the variable
  *****************************************************/
 
 public class QuickSortTester

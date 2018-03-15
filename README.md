@@ -42,3 +42,6 @@ Postcondition: *arr* is sorted
 [graph]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/avgTimeGraph.png
  
 ## Conclusions
+
+Based on the graph and my data, **QuickSort** is linear-logarithmic.
+My original hypothesis was correct.

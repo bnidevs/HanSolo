@@ -3,7 +3,45 @@
  
 
 ## Hypothesis
-**QuickSort** is linear-logarithmic time : **O(nlog(n))**
+
+**Best case**: **QuickSort** picks the median as the split value "*c*" (see [**Background**](https://github.com/bnidevs/HanSolo#background)) always, and it will perform like **MergeSort**
+
+**MergeSort**
+
+Precondition: takes an array of integers *arr*
+
+Function: if *arr* is 1 element, then return *arr*
+			else, make recursive call with 1st half and 2nd half
+				when recursive call finishes, **merge** the two received arrays
+
+Postcondition: *arr* is sorted
+
+**Merge**
+
+Precondition: takes two sorted arrays of integers*arr1*, *arr2*
+
+Function: if either array is empty, proceed by putting all elements in the other array into the returned array
+			else, compares 1st element of both arrays and places the smaller in the returned array first
+
+Postcondition: returns a sorted array of integers *arr* that is the combination of *arr1* and *arr2*
+
+Since **MergeSort** is linear-logarithmic time, **O(nlog(n))**, the best case of **QuickSort** will have the same runtime as **MergeSort**: **O(nlog(n))**
+
+**Average case**: **QuickSort** picks a tertile/quartile as the split value "*c*" (see [**Background**](https://github.com/bnidevs/HanSolo#background)) most of the time, which will result in a runtime greater than the best case, but less than the worst case.
+
+**Worst case**: **QuickSort** picks the largest/smallest element as the split value "*c*" (see [**Background**](https://github.com/bnidevs/HanSolo#background)) always, making it similar in operation to **SelectionSort**
+
+**SelectionSort**
+
+Precondition: takes one array of integers *arr*
+
+Function: finds maximum of *arr*
+			places found element into the front of a new array *rtrnArr*
+			repeat until *arr* is empty
+
+Postcondition: *arr*/*rtrnArr* is sorted
+
+Since **SelectionSort** is quadratic time, **O(n^2)**, the worst case of **QuickSort** will have the same runtime as **SelectionSort**: **O(n^2)**
 
 ## Background
 **QuickSort** is a sorting method based on the function **partition**
@@ -35,7 +73,9 @@ Postcondition: *arr* is sorted
 
 ## Results
 
-[See Excel sheet in repo](https://github.com/bnidevs/HanSolo/blob/master/QuickSortTimeData.xlsx)
+[Excel sheet](https://github.com/bnidevs/HanSolo/blob/master/QuickSortTimeData.xlsx)
+
+[CSV file](https://github.com/bnidevs/HanSolo/blob/master/rawData.csv)
 
 ![alt text][graph]
 
@@ -43,5 +83,4 @@ Postcondition: *arr* is sorted
  
 ## Conclusions
 
-Based on the graph and my data, **QuickSort** is linear-logarithmic.
-My original hypothesis was correct.
+Through my hypothesis, I anticipated some variation in the data, but expected that it would lean towards a linear-logarithmic time: **O(nlog(n))**. By the graph, however, I am unable to conclude whether it is leaning more towards a quadratic runtime, or a linear-logarithmic runtime. Either way, both were predicted in my hypothesis.

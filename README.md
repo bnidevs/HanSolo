@@ -88,11 +88,16 @@ Postcondition: *arr* is sorted
 #### Reverse Order Datasets
 ![alt text][graph3]
 
-[graph1]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/randomGraph.png
+#### Combined Graph
+![alt text][graph4]
+
+[graph1]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/shuffledGraph.png
 
 [graph2]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/sortedGraph.png
 
 [graph3]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/reversedGraph.png
+
+[graph4]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/allGraph.png
  
 ## Conclusions
 

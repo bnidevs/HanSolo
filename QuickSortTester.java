@@ -18,7 +18,7 @@
  *
  *****************************************************/
 
-public class QuickSort
+public class QuickSortTester
 {
   //--------------v  HELPER METHODS  v--------------
   //swap values at indices x, y in array o

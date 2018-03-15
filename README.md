@@ -70,6 +70,7 @@ Postcondition: *arr* is sorted
 1. Surround QuickSort function **ONLY** with timing operation
 2. Record/write to file time for randomly generated 50-element array
 3. Repeat step **2** for 100, 150, 200,..., 10000-element arrays
+4. Repeat step **3** 15 times/trials
 
 ## Results
 

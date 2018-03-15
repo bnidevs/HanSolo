@@ -101,4 +101,6 @@ Postcondition: *arr* is sorted
  
 ## Conclusions
 
-Through my hypothesis, I anticipated some variation in the data, but expected that it would lean towards a linear-logarithmic time: **O(nlog(n))**. By the graphs, however, I am unable to conclude whether it is leaning more towards a quadratic runtime, or a linear-logarithmic runtime. Either way, both were predicted in my hypothesis as with the different cases.
+Through my hypothesis, I anticipated some variation in the data, but expected that it would lean towards a linear-logarithmic time: **O(nlog(n))**. By the graphs, however, I am unable to conclude whether it is leaning more towards a quadratic runtime, or a linear-logarithmic runtime. Either way, both were predicted in my hypothesis as with the different cases.  
+  
+I did not expect the shuffled datasets to have the lowest sort time however, and that was a surprise. I'm still unsure why that is.

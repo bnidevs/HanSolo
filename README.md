@@ -3,7 +3,7 @@
  
 
 ## Hypothesis
-QuickSort is linear-logarithmic time : **O(nlog(n))**
+**QuickSort** is linear-logarithmic time : **O(nlog(n))**
 
 ## Background
 **QuickSort** is a sorting method based on the function **partition**
@@ -29,7 +29,10 @@ Function: repeatedly partitions *arr* with different *c* values
 Postcondition: *arr* is sorted
  
 ## Methodology
- 
+1. Surround QuickSort function **ONLY** with timing operation
+2. Record/write to file time for randomly generated 50-element array
+3. Repeat step **2** for 100, 150, 200,..., 1000-element arrays
+
 ## Results
  
 ## Conclusions

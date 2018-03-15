@@ -18,7 +18,9 @@ QuickSort is a sorting method based on the function
 
 	Postcondition: all indices < *c* have values < *arr*[*c*]
 					all indices > *c* have values > *arr*[*c*]
-
+  
+  
+  
     **QuickSort**
  
 ## Methodology

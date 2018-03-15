@@ -71,6 +71,7 @@ Postcondition: *arr* is sorted
 2. Record/write to file time for randomly generated 50-element array
 3. Repeat step **2** for 100, 150, 200,..., 10000-element arrays
 4. Repeat step **3** 15 times/trials
+5. Repeat step **4** for randomly arranged, reverse order and sorted arrays
 
 ## Results
 
@@ -78,10 +79,21 @@ Postcondition: *arr* is sorted
 
 [CSV file](https://github.com/bnidevs/HanSolo/blob/master/rawData.csv)
 
-![alt text][graph]
+#### Randomly Arranged Datasets
+![alt text][graph1]
+  
+#### Sorted Datasets
+![alt text][graph2]
+  
+#### Reverse Order Datasets
+![alt text][graph3]
 
-[graph]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/avgTimeGraph.png
+[graph1]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/randomGraph.png
+
+[graph2]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/sortedGraph.png
+
+[graph3]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/reversedGraph.png
  
 ## Conclusions
 
-Through my hypothesis, I anticipated some variation in the data, but expected that it would lean towards a linear-logarithmic time: **O(nlog(n))**. By the graph, however, I am unable to conclude whether it is leaning more towards a quadratic runtime, or a linear-logarithmic runtime. Either way, both were predicted in my hypothesis.
+Through my hypothesis, I anticipated some variation in the data, but expected that it would lean towards a linear-logarithmic time: **O(nlog(n))**. By the graphs, however, I am unable to conclude whether it is leaning more towards a quadratic runtime, or a linear-logarithmic runtime. Either way, both were predicted in my hypothesis as with the different cases.

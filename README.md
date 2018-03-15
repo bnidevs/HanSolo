@@ -10,8 +10,8 @@
 
 Precondition: takes an array of integers *arr*
 
-Function: if *arr* is 1 element, then return *arr*
-			else, make recursive call with 1st half and 2nd half
+Function: if *arr* is 1 element, then return *arr*  
+			else, make recursive call with 1st half and 2nd half  
 				when recursive call finishes, **merge** the two received arrays
 
 Postcondition: *arr* is sorted
@@ -20,7 +20,7 @@ Postcondition: *arr* is sorted
 
 Precondition: takes two sorted arrays of integers*arr1*, *arr2*
 
-Function: if either array is empty, proceed by putting all elements in the other array into the returned array
+Function: if either array is empty, proceed by putting all elements in the other array into the returned array  
 			else, compares 1st element of both arrays and places the smaller in the returned array first
 
 Postcondition: returns a sorted array of integers *arr* that is the combination of *arr1* and *arr2*
@@ -35,8 +35,8 @@ Since **MergeSort** is linear-logarithmic time, **O(nlog(n))**, the best case of
 
 Precondition: takes one array of integers *arr*
 
-Function: finds maximum of *arr*
-			places found element into the front of a new array *rtrnArr*
+Function: finds maximum of *arr*  
+			removes found element from *arr* and places it into the front of a new array *rtrnArr*  
 			repeat until *arr* is empty
 
 Postcondition: *arr*/*rtrnArr* is sorted
@@ -50,18 +50,18 @@ Since **SelectionSort** is quadratic time, **O(n^2)**, the worst case of **Quick
  
 Precondition: takes an array of integers *arr* and three integer parameters *a*, *b*, *c*
  
-Function: splits the range *a*, *b* of *arr* into an upper and lower portion
-			the upper portion consists of numbers > *arr*[*c*]
+Function: splits the range *a*, *b* of *arr* into an upper and lower portion  
+			the upper portion consists of numbers > *arr*[*c*]  
 			the lower portion consists of numbers < *arr*[*c*]
  
-Postcondition: all indices < *c* have values < *arr*[*c*]
+Postcondition: all indices < *c* have values < *arr*[*c*]  
 				all indices > *c* have values > *arr*[*c*]
   
 **QuickSort**
 
 Precondition: takes an array of integers *arr*
 
-Function: repeatedly partitions *arr* with different *c* values
+Function: repeatedly partitions *arr* with different *c* values  
 			after each partition, the recursive call only occurs on a half of *arr* (upper or lower portion)
 
 Postcondition: *arr* is sorted

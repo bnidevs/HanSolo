@@ -3,7 +3,7 @@
  
 
 ## Hypothesis
-QuickSort 
+QuickSort is linear-logarithmic time : **O(nlog(n))**
 
 ## Background
 QuickSort is a sorting method based on the function

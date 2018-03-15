@@ -34,5 +34,11 @@ Postcondition: *arr* is sorted
 3. Repeat step **2** for 100, 150, 200,..., 10000-element arrays
 
 ## Results
+
+[See Excel sheet in repo](https://github.com/bnidevs/HanSolo/blob/master/QuickSortTimeData.xlsx)
+
+![alt text][graph]
+
+[graph]: https://raw.githubusercontent.com/bnidevs/HanSolo/master/avgTimeGraph.png
  
 ## Conclusions
